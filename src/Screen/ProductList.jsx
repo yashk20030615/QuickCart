@@ -9,7 +9,7 @@ import { AddProds } from "../Redux/ProductSlice";
 const ProductList = () => {
   const dispatch = useDispatch();
 
-  // ✅ CORRECT REDUCER PATH
+
   const storedProds = useSelector(
     state => state.ProductReducer.storedProds
   );
