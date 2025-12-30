@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Card, Button } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { AddToCartData, AddToCartList, RemoveFromCartData, RemoveFromCartList } from '../Redux/CartSlice'
+import { AddToCartData, AddToCartList, RemoveFromCartData, RemoveFromCartList } from '../redux/CartSlice'
 
 const ProductCard = (props) => {
     const CartlistData = useSelector(state => state.CartReducer.cartList)

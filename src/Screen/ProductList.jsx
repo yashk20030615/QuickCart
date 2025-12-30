@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchProducts } from "../Network/fetchProducts";
 import ProductCard from "../Components/CartItem";
 import Loader from "../Components/Loader";
-import { AddProds } from "../Redux/ProductSlice";
+import { AddProds } from "../redux/ProductSlice";
 
 const ProductList = () => {
   const dispatch = useDispatch();

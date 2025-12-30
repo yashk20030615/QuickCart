@@ -2,7 +2,7 @@ import React from 'react'
 import { Badge, Button, Card, Col, Container, Row } from 'react-bootstrap'
 import { useSelector, useDispatch } from 'react-redux'
 import { LuTrash } from "react-icons/lu";
-import { RemoveFromCartData, RemoveFromCartList } from '../Redux/CartSlice'
+import { RemoveFromCartData, RemoveFromCartList } from '../redux/CartSlice'
 import { Link, useNavigate } from 'react-router-dom';
 
 const Cart = () => {
